@@ -7,12 +7,12 @@
 //Created by Angela Yu.
 //Copyright 2019.
 
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
+import ReactDOM from "react-dom";
 
 const yourName = "Harvey";
-const currentYear = 2021;
-
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
